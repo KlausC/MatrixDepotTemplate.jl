@@ -1,6 +1,6 @@
 name = "MatrixDepotTemplate"
 uuid = "98d4d138-8efc-4894-8873-96e9bc185770"
-authors = ["Klaus Crusius <klaus.crusius@web.de> and contributors"]
+authors = ["Klaus Crusius <KlausC@users.noreply.github.com>"]
 version = "0.1.0"
 
 [deps]
