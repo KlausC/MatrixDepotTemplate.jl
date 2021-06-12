@@ -1,7 +1,11 @@
-name = "XXX"
+name = "MatrixDepotTemplate"
 uuid = "98d4d138-8efc-4894-8873-96e9bc185770"
 authors = ["Klaus Crusius <klaus.crusius@web.de> and contributors"]
 version = "0.1.0"
+
+[deps]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+MatrixDepot = "b51810bb-c9f3-55da-ae3c-350fc1fbce05"
 
 [compat]
 julia = "1"
