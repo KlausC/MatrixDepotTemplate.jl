@@ -2,7 +2,7 @@ module MatrixDepotTemplate
 
 using LinearAlgebra
 using MatrixDepot
-using MatrixDepot: include_generator, FunctionName, publish_user_generators
+using MatrixDepot: include_generator, FunctionName, Group, publish_user_generators
 
 """
 random Orthogonal matrix
@@ -32,6 +32,8 @@ end
 function __init__()
     include_generator(FunctionName, "randsym", randsym)
     include_generator(FunctionName, "randorth", randorth)
+    include_generator(Group, :symmetric, randsym)
+    include_generator(Group, :random, randsym)
     publish_user_generators()
 end
 

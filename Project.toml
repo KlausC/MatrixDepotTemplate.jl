@@ -9,6 +9,7 @@ MatrixDepot = "b51810bb-c9f3-55da-ae3c-350fc1fbce05"
 
 [compat]
 julia = "1"
+MatrixDepot = "1.0.5, 1.1"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
